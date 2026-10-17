@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Lorem Ipsum Generator · TekiDeki",
   "short_name": "Lorem Ipsum",
-  "description": "Private placeholder text generator with 10 interface languages.",
+  "description": "Private placeholder text generator with 4 interface languages.",
   "lang": "en",
   "start_url": "./",
   "scope": "./",

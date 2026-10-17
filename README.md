@@ -10,7 +10,7 @@ Private placeholder text, exactly how you need it. A **single-file, zero-depende
 - Short, medium and long length presets, plus an optional “Lorem ipsum…” opening.
 - Copy text, download a plain UTF-8 `.txt` file, or clear the output.
 - Live word, character, sentence and paragraph counters.
-- **10 interface languages:** English, Română, Srpski Latin, Српски Cyrillic, Deutsch, Français, Italiano, Español, Português and Nederlands.
+- **4 interface languages:** English, Română, Srpski Latin, Српски Cyrillic.
 - Light/dark themes, responsive layout, keyboard controls and reduced-motion support.
 - Local preferences, no account, no tracking, no backend or external runtime resources.
 - Installable PWA with offline support after a successful online visit.
@@ -51,7 +51,7 @@ Changing the interface language does not regenerate or translate the current out
 
 ## Language links
 
-[EN](https://tekideki.github.io/Generator-Lorem-Ipsum/) · [RO](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=ro) · [SR Latin](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=sr-Latn) · [СР Cyrillic](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=sr-Cyrl) · [DE](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=de) · [FR](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=fr) · [IT](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=it) · [ES](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=es) · [PT](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=pt) · [NL](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=nl)
+[EN](https://tekideki.github.io/Generator-Lorem-Ipsum/) · [RO](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=ro) · [SR Latin](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=sr-Latn) · [СР Cyrillic](https://tekideki.github.io/Generator-Lorem-Ipsum/?lang=sr-Cyrl)
 
 A valid URL language overrides the saved preference, which overrides the browser language. English is the fallback. Switching language updates the URL, HTML language and SEO metadata, but never puts the generated text into the URL.
 
@@ -86,7 +86,8 @@ Tested in Chromium using Playwright on 2026-10-14:
 - 270 language/mode/count/length combinations, plus maximum limits and invalid inputs;
 - exact word counts, sentence lengths/counts, paragraph counts and accurate counters;
 - keyboard generation, preferences, copy permission success/denial and byte-exact TXT export;
-- ten languages × both themes, responsive widths from 320 to 1280 px;
+- on 2026-10-17, language switching checked in all four languages with no JavaScript errors; the earlier run covered ten languages, so the two-theme, responsive and 270-combination checks below are historical;
+- responsive widths from 320 to 1280 px;
 - automated axe-core A/AA checks with no tested violations;
 - manifest/installability checks, scoped cache, new-language-query offline navigation and offline LICENSE;
 - no third-party requests, safe invalid preferences, unavailable storage and direct-file mode.
