@@ -28,9 +28,9 @@ Private placeholder text, exactly how you need it. A **single-file, zero-depende
 
 | Length preset | Sentences per paragraph | Words per sentence |
 |---|---:|---:|
-| Short | 3 | 9–14 |
-| Medium | 5 | 14–20 |
-| Long | 7 | 20–28 |
+| Short | 3 | 9-14 |
+| Medium | 5 | 14-20 |
+| Long | 7 | 20-28 |
 
 The length preset is disabled in word mode because it does not change an exact word count. Each mode remembers its own last valid count.
 
